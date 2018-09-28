@@ -6,4 +6,4 @@ require_relative '../lib/move.rb'
 puts "Where would you like to make your next move"
 user_input = get.strip;
 index = input_to_index(user_input);
-board = 
+board = " 
