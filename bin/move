@@ -7,3 +7,4 @@ puts "Where would you like to make your next move"
 user_input = get.strip;
 index = input_to_index(user_input);
 board = [ " ", " ", " ", " ", " ", " ", " ", " ", " " ];
+move(board, index);
