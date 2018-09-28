@@ -4,7 +4,7 @@ require_relative '../lib/move.rb'
 
 # Code your CLI Here
 puts "Where would you like to make your next move"
-user_input = get.strip;
+user_input = gets.strip;
 index = input_to_index(user_input);
 board = [ " ", " ", " ", " ", " ", " ", " ", " ", " " ];
 move(board, index);
